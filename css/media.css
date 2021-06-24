@@ -1,0 +1,287 @@
+@media (min-width: 1600px) {
+	.box-container {
+    max-width: 1366px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1600px) {
+	.box-container {
+    max-width: 1366px;
+    margin: 0 auto;
+  }
+
+  .main-section__track_img {
+    right: 112px;
+  }
+
+}
+
+@media only screen and (max-width : 1400px) {
+  
+}
+
+@media only screen and (max-width : 1366px) {
+  .box-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .top-header__item { 
+    margin-right: 30px;
+  }
+  .menu-main__item {
+    padding: 27px 20px;
+  }
+
+  .crimea-map__count {
+    bottom: 180px;
+  }
+
+  .count2 {
+    bottom: 90px;
+    right: 470px;
+  }
+}
+
+@media only screen and (max-width : 1200px) {
+  .box-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .top-header__item { 
+    margin-right: 20px;
+  }
+  .menu-main__item {
+    font-size: 14px;
+    padding: 27px 5px;
+  }
+  .links_phones {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .main-section__track_img {
+    right: 1px;
+  }
+
+  .row__column {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+  }
+  .products-services__text {
+    margin-right: 20px;
+  }
+  .crimea-map__count {
+    bottom: 75px;
+  }
+  .count2 {
+    bottom: 5px;
+    right: 347px;
+  }
+}
+
+@media only screen and (max-width : 1040px) {
+  .top-header {
+    display: none;
+  }
+
+  .menu-body nav,
+  .menu-main__addresses,
+  .menu-main__links {
+    display: none;
+  }
+
+  .header__button-menu {
+    display: block;
+  }
+
+  .header__mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: #fff;
+    overflow: auto;
+    padding: 70px 30px 40px;
+  }
+
+  .header__mobile-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 28px;
+    cursor: pointer;
+  }
+
+  .header__nav_mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .header__nav_item_mobile {
+    text-align: center;
+  }
+
+  .main-section__track_img {
+    display: none;
+  }
+
+  .main-section__body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-section__title {
+    margin-right: 0px;
+  }
+
+  .main-section__pulse {
+    position:initial;
+    margin: 35px 0;
+  }
+
+  .products-services_center {
+    overflow-y: auto;
+    margin-top: 50px;
+    height: 380px;
+    align-items: center;
+  }
+  .products-services__column {
+    margin: 0 30px;
+  }
+
+  .row__column {
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .products-services__crimea-map img {
+    display: none;
+  }
+
+  .crimea-map__count {
+    position: initial;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+
+  .main-section {
+    height: max-content;
+  }
+
+  .main-section__body {
+    padding-top: 80px;
+  }
+
+  .main-section__title h1 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  .main-section__title {
+    font-size: 30px;
+    line-height: 47px;
+  }
+
+  .row__column {
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .products-services__crimea-map {
+    display: flex;
+  }
+
+  .crimea-map__count {
+    margin: 0 10px;
+  }
+  .text__desc {
+    width: auto;
+  }
+
+  .text__info {
+    min-height: 57px;
+    text-align: center;
+  }
+
+  .trust__box {
+    max-width: 100%;
+    height: 300px;
+  
+    width: 100%;
+  }
+  
+  .box_bg-img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .slider {
+    display: flex;
+    flex-wrap: wrap;
+  
+    position: relative;
+    padding: 0 30px;
+  }
+
+  .trust {
+    padding: 20px 0 20px 0;
+  }
+  .trust__title {
+    margin-bottom: 20px;
+  }
+
+  .title {  
+    font-size: 30px;
+  }
+  .services {
+    padding: 20px 0;
+  }
+  .products-services__body {
+    padding: 20px 0;
+  }
+}
+
+@media only screen and (max-width : 550px) {
+  .main-section__title h1 {
+    font-size: 60px;
+    line-height: 30px;
+  }
+
+  .main-section__title {
+    font-size: 25px;
+    line-height: 47px;
+  }
+
+  .main-section__title p {
+    margin-bottom: 25px;
+  }
+
+  .custom_btn {
+    padding: 15px 75px;
+    font-size: 14px;
+  }
+  .text__title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .trust__box {
+    min-height: 300px;
+    height: max-content;
+  }
+}
+
+@media only screen and (max-width : 425px) {
+  .products-services__crimea-map {
+    display: block;
+  }
+}
