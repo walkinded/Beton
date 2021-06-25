@@ -420,4 +420,7 @@
   .products-services__crimea-map {
     display: block;
   }
+  .main-section__title p {
+    font-size: 20px;
+}
 }
