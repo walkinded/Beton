@@ -18,6 +18,8 @@ li {
   list-style-type: none;
 }
 
+i {font-size: 25px;}
+
 .top-header {
   max-height: 38px;
   background: #F0F5FC;
