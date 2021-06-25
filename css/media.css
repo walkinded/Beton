@@ -17,8 +17,11 @@
 
 }
 
-@media only screen and (max-width : 1400px) {
-  
+@media only screen and (max-width : 1440px) {
+  .masonry {
+    left: 100px;
+    top: 147px;
+  }
 }
 
 @media only screen and (max-width : 1366px) {
@@ -168,6 +171,106 @@
   .crimea-map__count {
     position: initial;
   }
+
+  .forma {
+    height: 420px;
+    overflow: hidden;
+    position: relative;
+    top: initial;
+  }
+  .way__pusle {
+    display: none;
+  }
+
+  .steps {
+    position: initial;
+    overflow-y: auto;
+    height: 350px;
+  }
+
+  .steps__arrows {
+    position: absolute;
+    top: 60px;
+    display: none;
+  }
+
+  .steps__img {
+    position: relative;
+  }
+
+  .step_1,
+  .step_2,
+  .step_3,
+  .step_4,
+  .step_5 {
+    top: initial;
+    right: initial;
+    left: initial;
+    bottom: initial;
+  }
+
+  .text_top {
+    top: initial;
+    right: inherit;
+  }
+
+  .text_right {
+    top: 145px;
+    left: initial;
+  }
+
+  .way__body {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    position: relative;
+    padding-top: 85px;
+  }
+  .steps {
+    display: none;
+  }
+  .way {
+    height: max-content;
+    padding: 20px 0;
+  }
+
+  .way__body {
+    padding-top: 20px;
+  }
+
+
+  .map {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 30px 0;
+  }
+  .masonry {
+    position: initial;
+  }
+
+  .footer__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacts__map {
+    height: 350px;
+  }
+  .footer__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer_bottom__wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer_bottom__wrapper p {
+    margin-right: 0%;
+    margin-top: 20px;
+  }
 }
 
 @media only screen and (max-width : 768px) {
@@ -248,6 +351,9 @@
   .products-services__body {
     padding: 20px 0;
   }
+  .footer__wrapper {
+    padding: 30px 0 30px 0;
+  }
 }
 
 @media only screen and (max-width : 550px) {
@@ -277,6 +383,31 @@
   .trust__box {
     min-height: 300px;
     height: max-content;
+  }
+
+  .forma__content {
+    padding: 0 10px;
+  }
+  input[type=text], input[type=tel] {
+    width: 100%;
+  }
+
+  .tab_content__address-email {
+    flex-direction: column;
+  }
+  .masonry {
+    height: max-content;
+  }
+  .tab_content {
+    padding: 50px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+  }
+  .tab_content__links {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
