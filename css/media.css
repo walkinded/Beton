@@ -355,7 +355,8 @@
     padding: 30px 0 30px 0;
   }
 
-  .to_up {
+  .to_up,
+   #scroller{
     display: none;
   }
 }
