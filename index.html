@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="libs/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="libs/fancybox-2.1.7/source/jquery.fancybox.css" />
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/media.css">
   <link rel="stylesheet" href="css/fonts.css">
@@ -59,7 +60,7 @@
             <a href="#"><img src="img/svg/whatsapp_icon.svg" alt=""></a>
             <a href="tel:+ 79781011601">+ 7 (978) 101-16-01</a>
           </div>
-          <a href="#" class="links_mail">Заказать звонок</a>
+          <a href="#modal-callback" class="fancybox links_mail">Заказать звонок</a>
         </div>
 
 
@@ -97,7 +98,7 @@
         <div class="main-section__title">
           <h1>бетон</h1>
           <p>и цементный раствор </p>
-          <a href="#" class="custom_btn">позвонить</a>
+          <a href="#modal-callback" class="fancybox custom_btn">позвонить</a>
         </div>
 
         <div class="main-section__pulse">
@@ -497,7 +498,7 @@
                 <a href="mailTo:">karierbeton@mail.ru</a>
               </div>
             </div>
-            <a href="#" class="custom_btn">заказать звонок</a>
+            <a href="#modal-callback" class="fancybox custom_btn">заказать звонок</a>
           </div>
           <div id="tab2" class="tab_content">
             <div class="tab_content__links">
@@ -517,7 +518,7 @@
                 <a href="mailTo:">karierbeton@mail.ru</a>
               </div>
             </div>
-            <a href="#" class="custom_btn">заказать звонок</a>
+            <a href="#modal-callback" class="fancybox custom_btn">заказать звонок</a>
           </div>
         </div>
     </div>
@@ -598,8 +599,31 @@
     </div>
   </footer>
 
+  <div id="scroller" class="to_up">
+    <img src="img/svg/arrow_to_up_icon.svg" alt="">
+  </div>
+
+  <div id="modal-callback" class="modal">
+    <div class="forma">
+      <img src="img/svg/forma_top_icon.svg" alt="">
+
+      <div class="forma__content">
+        <p>Заказать звонок</p>
+        <input type="text" placeholder="Ваше имя">  
+        <input type="tel" placeholder="+7 (___) ___-__-__" />
+        <div class="form-group">
+          <input type="checkbox" id="html">
+          <label for="html">Согласие на обработку персональных данных</label>
+        </div>
+        <button class="custom_btn">Отправить</button>
+      </div>
+
+    </div>
+  </div>
+
   <script src="libs/jquery/dist/jquery.min.js"></script>
   <script src="libs/fancybox-2.1.7/source/jquery.fancybox.js"></script>
+  <script src="libs/maskedinput/jquery.maskedinput.min.js"></script>
   <script src="libs/slick/slick.min.js"></script>
 	<script src="js/common.js"></script>
   <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript" unselectable="on" scroll="false"></script>

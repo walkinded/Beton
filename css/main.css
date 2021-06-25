@@ -32,6 +32,10 @@ li {
   justify-content: space-between;
 }
 
+.top-header__body a:hover {
+  text-decoration: underline;
+}
+
 .top-header__body ul {
   display: flex;
 }
@@ -65,7 +69,6 @@ li {
   /* identical to box height */
 
   letter-spacing: 0.03em;
-  text-decoration-line: underline;
 
   color: #0B1013;
 }
@@ -135,8 +138,23 @@ header {
 
   color: #556162;
 }
+.menu-main__addresses p:first-child {
+  margin-bottom: 10px;
+}
 
-.menu-main__links {
+
+.menu-main__links .links_phones a:hover {
+  text-decoration: underline;
+}
+.menu-main__links .links_phones img {
+  transition: all .2s ease-in-out; 
+}
+.menu-main__links .links_phones img:hover {
+  transform: scale(1.1);
+}
+
+.menu-main__links .links_phones {
+  margin-bottom: 3px;
 }
 
 .links_phones {
@@ -174,6 +192,10 @@ header {
   color: #556162;
 
   float: right;
+}
+
+.links_mail:hover {
+
 }
 
 .header__button-menu {
@@ -644,6 +666,9 @@ header {
 
 .slider__item {
   width: 33.3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -716,9 +741,6 @@ header {
 .services__slider {
 }
 
-.slider__item {
-  
-}
 
 .item__box {
   width: 232px;
@@ -911,8 +933,6 @@ input[type=tel] {
   background-color: transparent;
   border: 1px solid #C4C8D2;
   border-radius: 3px;
-  /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05); */
-  /* padding: 10px; */
   display: inline-block;
   position: relative;
   vertical-align: middle;
@@ -922,7 +942,7 @@ input[type=tel] {
   height: 18px;
 }
 
-.form-group input:checked + label:after {
+.form-group label:after { 
   content: '';
   display: block;
   position: absolute;
@@ -933,6 +953,12 @@ input[type=tel] {
   border: solid #F68C0E;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
+}
+
+
+.form-group input:checked + label:after {
+  content: '';
+  display: none;
 }
 /* /checkbox */
 
@@ -1409,4 +1435,44 @@ footer img:hover {
 
 .footer_bottom__wrapper p {
   margin-right: 9%;
+}
+
+
+.to_up {
+  position: fixed;
+  z-index: 999;
+  bottom: 50px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+
+  /* Orange */
+
+  background: #F2994A;
+  box-shadow: 0px 18px 35px -15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+}
+
+.modal .forma {
+  position:inherit;
+  justify-content: center;
+  height: max-content;
+  overflow: hidden;
+}
+
+.modal  .forma img {
+  position: relative;
+  top: 0;
+  height: 15px;
+  margin-bottom: 20px;
 }

@@ -28,6 +28,8 @@ $(document).ready(function(){
 
 $('.fancybox').fancybox();
 
+$('input[type=tel]').mask('+7 (999) 999-99-99');
+
 
 
 $('header').addClass('original').clone().insertAfter('header').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
