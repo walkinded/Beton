@@ -151,13 +151,11 @@
   }
 
   .products-services_center {
-    overflow-y: auto;
     margin-top: 50px;
-    height: 380px;
-    align-items: center;
+    flex-wrap: wrap;
   }
   .products-services__column {
-    margin: 0 30px;
+    margin: 0 auto 30px;
   }
 
   .row__column {
@@ -422,12 +420,31 @@
   .main-section__pulse {
     top: -105px;
   }
+
+  .text__info {
+    width: 228px;
+    height: 228px;
+    border-radius: 50%;
+  }
+  .products-services__text {
+    display: flex;
+    margin-right: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text__desc {
+    width: auto;
+    display: none;
+  }
+  .products-services__crimea-map {
+    display: none;
+  }
 }
 
 @media only screen and (max-width : 425px) {
-  .products-services__crimea-map {
+  /* .products-services__crimea-map {
     display: block;
-  }
+  } */
   .main-section__title p {
     font-size: 20px;
   }
