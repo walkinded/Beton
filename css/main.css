@@ -424,6 +424,20 @@ header {
   animation: radial-pulse2 1s infinite;
 }
 
+.text__info img{
+  display: none;
+}
+
+.text__mod_hide {
+  display: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+
+  color: #0B1013;
+}
+
 .text__desc {
   width: 455px;
   font-style: normal;
@@ -1482,3 +1496,46 @@ footer img:hover {
   height: 15px;
   margin-bottom: 20px;
 }
+
+/* delivery-payment */
+.delivery-payment {}
+
+.delivery-payment__title {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  /* or 125% */
+
+
+  color: #0B1013;
+}
+
+.delivery-payment__body {}
+
+.body__box {
+  width: 434px;
+  height: 306px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 12px 35px -4px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 40px 40px;
+
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.body__box ul {}
+
+.body__box li {}
+
+.body__box li::before {
+  content: "•";
+  color: #F68B0E;
+}
+.box__title {}
+/* / delivery-payment */

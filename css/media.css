@@ -421,10 +421,29 @@
     top: -105px;
   }
 
+
+  .text__info_mod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
   .text__info {
-    width: 228px;
-    height: 228px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
+  }
+
+  .text__info p {
+    display: none;
+  }
+
+  .text__info img{
+    display: block;
+  }
+  
+  .text__mod_hide {
+    display: block;
   }
   .products-services__text {
     display: flex;
