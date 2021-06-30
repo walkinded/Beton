@@ -411,13 +411,17 @@ header {
 
   max-width: 428px;
   height: 57px;
-  left: 279px;
-  top: 1138px;
 
   background: #E9EAEF;
-  border: 10px solid #F4F4F7;
+  /* border: 10px solid #F4F4F7; */
+  animation: radial-pulse1 1s infinite;
   border-radius: 40px;
   margin-bottom: 40px;
+}
+
+.text__info:hover  {
+  background: #6D9CDF;
+  animation: radial-pulse2 1s infinite;
 }
 
 .text__desc {

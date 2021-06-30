@@ -145,7 +145,8 @@
   }
 
   .main-section__pulse {
-    position:initial;
+    position:relative;
+    top: -130px;
     margin: 35px 0;
   }
 
@@ -270,6 +271,10 @@
   .footer_bottom__wrapper p {
     margin-right: 0%;
     margin-top: 20px;
+  }
+  .main-section__title .custom_btn {
+    position: relative;
+    top: 250px;
   }
 }
 
@@ -414,6 +419,9 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  .main-section__pulse {
+    top: -105px;
+  }
 }
 
 @media only screen and (max-width : 425px) {
@@ -422,5 +430,5 @@
   }
   .main-section__title p {
     font-size: 20px;
-}
+  }
 }
