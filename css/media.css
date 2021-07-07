@@ -44,6 +44,29 @@
     bottom: 90px;
     right: 470px;
   }
+
+  .body__box {
+    height: 340px;
+    margin: 10px;
+  }
+  .last-news__wrapper {
+    justify-content: center;
+  }
+
+  .last-news__box {
+    margin: 15px;
+  }
+  .contacts__body .forma {
+    margin-left: 20px;
+  }
+
+  .certificates__box {
+    margin: 20px;
+  }
+
+  .certificate__attention {
+    margin: 20px;
+  }
 }
 
 @media only screen and (max-width : 1200px) {
@@ -82,6 +105,22 @@
   .count2 {
     bottom: 5px;
     right: 347px;
+  }
+
+  .contacts__body {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .contacts-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacts__container {
+    margin-top: 30px;
+  }
+  .contacts__body .forma {
+    margin-left: 0px;
   }
 }
 
@@ -274,6 +313,22 @@
     position: relative;
     top: 250px;
   }
+  .delivery-payment__body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .forma__wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 20px 0;
+  }
+  .line {
+    display: none;
+  }
+  .manager {
+    display: none;
+  }
 }
 
 @media only screen and (max-width : 768px) {
@@ -361,6 +416,31 @@
   .to_up,
    #scroller{
     display: none !important;
+  }
+
+  .news {
+    display: none;
+  }
+
+  .contacts__container {
+    flex-direction: column;
+  }
+
+  .certificates__body {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .certificate__attention-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .certificates {
+    padding: 30px 0;
+  }
+  .galery__slider .slick-slide {
+    margin: 0 10px;
   }
 }
 
@@ -457,6 +537,46 @@
   }
   .products-services__crimea-map {
     display: none;
+  }
+
+  .body__box {
+    width: 100%;
+    height: max-content;
+    margin: 10px;
+    padding-bottom: 20px;
+  }
+
+  .forma_l input,
+  .forma_l textarea {
+    width: 260px;
+  }
+
+  .inputs_box {
+    align-items: center;
+  }
+  .inputs_box .custom_btn {
+    padding: 20px 70px;
+  }
+  .body__box li {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .last-news__box {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .last-news {
+    padding: 30px 0;
+  }
+
+  .last-news__box {
+    margin: 0 0px 30px;
+  }
+
+  .item__link {
+    flex-wrap: wrap;
   }
 }
 

@@ -61,32 +61,32 @@ function stickIt() {
 
 
 if($(window).width() < 1200 ){ 
-$('.slider').slick({
-  arrows: false,
-  slidesToShow: 3,
-  rows: 1,
-  responsive: [
+  $('.slider').slick({
+    arrows: false,
+    slidesToShow: 3,
+    rows: 1,
+    responsive: [
 
-    {
-      breakpoint: 1200,
-      settings: {
-        arrows: true,
-        slidesToShow: 2,
-        speed: 1000,
+      {
+        breakpoint: 1200,
+        settings: {
+          arrows: true,
+          slidesToShow: 2,
+          speed: 1000,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          speed: 1000,
+          arrows: true,
+          rows: 1,
+        }
       }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 1,
-        speed: 1000,
-        arrows: true,
-        rows: 1,
-      }
-    }
-    
-  ]
-});
+      
+    ]
+  });
 }
 
 $('.services__slider').slick({
@@ -123,6 +123,87 @@ $('.services__slider').slick({
       },
     }
   ]
+});
+
+$('.galery__slider').slick({
+  arrows: true,
+  dots: true,
+  slidesToShow: 3,
+  speed: 1000,
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  rows: 1,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        speed: 1000,
+        arrows: false,
+      }
+    },
+    {
+      breakpoint: 1024,
+      settings: {
+        arrows: true,
+        slidesToShow: 2,
+        speed: 1000,
+      },
+    },
+    {
+      breakpoint: 1200,
+      settings: {
+        arrows: true,
+        slidesToShow: 3,
+        speed: 1000,
+      },
+    }
+  ]
+});
+
+$('.slider-small').slick({
+  arrows: true,
+  dots: false,
+  slidesToShow: 3,
+  speed: 1000,
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  rows: 1,
+  asNavFor: ".slider-big",
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        speed: 1000,
+        arrows: true,
+      }
+    },
+    {
+      breakpoint: 1024,
+      settings: {
+        arrows: true,
+        slidesToShow: 2,
+        speed: 1000,
+      },
+    },
+    {
+      breakpoint: 1200,
+      settings: {
+        arrows: true,
+        slidesToShow: 3,
+        speed: 1000,
+      },
+    }
+  ]
+});
+$('.slider-big').slick({
+  arrows: false,
+  dots: true,
+  fade: true,
+  asNavFor: ".slider-small",
 });
 
 $(document).ready(function($) {
