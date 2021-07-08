@@ -17,3 +17,11 @@
 
 8. Услуги https://walkinded.github.io/Beton/services.html
 
+9. Производство ЖБИ https://walkinded.github.io/Beton/production.html
+
+10. Кольца колодезные https://walkinded.github.io/Beton/well_rings.html
+
+11. ФБС https://walkinded.github.io/Beton/fbs.html
+
+12. Производство бетона https://walkinded.github.io/Beton/concrete_production.html
+
