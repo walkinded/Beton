@@ -1,0 +1,20 @@
+<svg width="15" height="301" viewBox="0 0 15 301" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="15" height="301">
+<rect y="301" width="301" height="15" transform="rotate(-90 0 301)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0)">
+<path d="M0 270.786L0 259L15 270V283L0 270.786Z" fill="#FBD785"/>
+<path d="M0 222.786L0 211L15 222V235L0 222.786Z" fill="#FBD785"/>
+<path d="M0 174.786L0 163L15 174V187L0 174.786Z" fill="#FBD785"/>
+<path d="M0 126.786L0 115L15 126V139L0 126.786Z" fill="#FBD785"/>
+<path d="M0 78.7857L0 67L15 78V91L0 78.7857Z" fill="#FBD785"/>
+<path d="M0 30.7857L0 19L15 30V43L0 30.7857Z" fill="#FBD785"/>
+<path d="M0 294.786L0 283L15 294V307L0 294.786Z" fill="#FBD785"/>
+<path d="M0 246.786L0 235L15 246V259L0 246.786Z" fill="#FBD785"/>
+<path d="M0 198.786L0 187L15 198V211L0 198.786Z" fill="#FBD785"/>
+<path d="M0 150.786L0 139L15 150V163L0 150.786Z" fill="#FBD785"/>
+<path d="M0 102.786L0 91L15 102V115L0 102.786Z" fill="#FBD785"/>
+<path d="M0 54.7857L0 43L15 54V67L0 54.7857Z" fill="#FBD785"/>
+<path d="M0 6.78572L0 -5L15 6V19L0 6.78572Z" fill="#FBD785"/>
+</g>
+</svg>
